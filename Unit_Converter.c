@@ -1,6 +1,6 @@
 //Project- Unit Converter
 #include<stdio.h>
-int main(){
+void main(){
     //For Character option
     void asciiToChar();
     void charToAscii();
