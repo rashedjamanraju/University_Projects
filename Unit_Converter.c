@@ -5,7 +5,7 @@ void main(){
     void asciiToChar();
     void charToAscii();
     void upperCaseToLowerCase();
-    void lowerCaseToLowerCase();
+    void lowerCaseToUpperCase();
 
     //For Tempreture option
     void fahrenhitToCelcius();
@@ -42,7 +42,7 @@ void main(){
         }
         else if(b==4){
             //Lowercase to Uppercase
-            lowerCaseToLowerCase();//Function invoked
+            lowerCaseToUpperCase();//Function invoked
         }
         else{
             printf("\n! Invalid Option Choosen :( ");
@@ -133,7 +133,7 @@ void upperCaseToLowerCase(){
     }
 }
 
-void lowerCaseToLowerCase(){
+void lowerCaseToUpperCase(){
     char ch;//Local Variable
     printf("Enter a Character: ");
     scanf(" %c",&ch);
